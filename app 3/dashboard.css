@@ -1,0 +1,423 @@
+:root {
+  --primary-color: #86dcac;
+  --accent-color: seagreen;
+  --secondary-background-color: #f7f7f7;
+  --primary-background-color: darkslategrey;
+  --primary-text-color: white;
+  --secondary-text-color: black;
+  --highlight-color: #ff4500;
+  --border-color: #dddddd;
+  --disabled-color: #9e9e9e;
+  --font-family: "Arial", sans-serif;
+
+  --border-radius: 8px;
+  --standard-padding: 20px;
+  --standard-margin: 20px;
+
+  --button-background-color: var(--accent-color);
+  --button-hover-background-color: #3e8c41;
+  --button-padding: 10px 20px;
+  --button-border-radius: 4px;
+  --button-text-color: var(--secondary-text-color);
+  --modal-background-color: rgba(0, 0, 0, 0.8);
+  --modal-text-color: #ffffff;
+
+  --box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+body.dark-mode {
+  --background-color: #333333;
+  --text-color: #cccccc;
+  --header-bg-color: #222222;
+  --header-text-color: #dddddd;
+  --widget-bg-color: #424242;
+  --widget-text-color: #e0e0e0;
+  --widget-border-color: #616161;
+  --link-color: #0099ff;
+  --button-bg-color: #424242;
+  --button-text-color: #cccccc;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: var(--body-background);
+  color: var(--dark-text);
+  line-height: 1.6;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: var(--light-text);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  color: black;
+}
+
+nav ul li a {
+  color: var(--light-text);
+  text-decoration: none;
+}
+
+.user-info .bet-bucks {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #4caf50;
+  background-color: #f0f0f0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.user-info .username {
+  font-size: 1.1em;
+  color: #333333;
+  background-color: #f0f0f0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+body.dark-mode .user-info .username,
+body.dark-mode .user-info .bet-bucks {
+  background-color: var(--widget-bg-color); /* Sets a dark background */
+  color: var(
+    --widget-text-color
+  ); /* Ensures the text is readable on the dark background */
+}
+
+border: 2px solid var(--primary-color);
+
+main {
+  padding: var(--padding-standard);
+}
+
+.bet-table {
+  width: 100%;
+  margin-bottom: var(--margin-standard);
+  border-collapse: collapse;
+}
+
+.bet-table th,
+.bet-table td {
+  border: 1px solid var(--border-color);
+  text-align: left;
+  padding: 8px;
+}
+
+.bet-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.bet-button {
+  background-color: var(--secondary-color);
+  color: var(--light-text);
+  border: none;
+  padding: var(--button-padding);
+  margin: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.bet-button:disabled {
+  background-color: var(--disabled-background-color);
+}
+
+#budget-section h2 {
+  color: var(--dark-text);
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.budget-bar {
+  background-color: var(--border-color);
+  border-radius: var(--radius-standard);
+  overflow: hidden;
+}
+
+.budget-used {
+  background-color: green;
+  height: 20px;
+  transition: width 0.3s ease;
+}
+
+#bets-section {
+  margin: var(--margin-standard) 0;
+}
+
+#bets-section h2 {
+  border-bottom: 2px solid var(--primary-color);
+  display: inline-block;
+  margin-right: 15px;
+}
+
+#bets-section table {
+  width: 100%;
+  margin-bottom: var(--margin-standard);
+  border-collapse: collapse;
+}
+
+#bets-section td,
+#bets-section th {
+  border: 1px solid var(--border-color);
+  text-align: left;
+  padding: 8px;
+}
+
+#bets-section tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+aside {
+  border: 1px solid var(--primary-color);
+  padding: var(--padding-standard);
+  margin: var(--margin-standard) 0;
+}
+
+.dashboard-nav ul {
+  list-style: none;
+  padding: 0;
+  background-color: var(--primary-color);
+  margin-top: var(--margin-standard);
+}
+
+.dashboard-nav li {
+  display: inline-block;
+  width: 23%;
+}
+
+.dashboard-nav a {
+  display: block;
+  padding: 10px;
+  color: var(--light-text);
+  text-align: center;
+  text-decoration: none;
+  border-right: 1px solid var(--light-text);
+}
+
+.dashboard-nav a:last-child {
+  border-right: none;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--light-text);
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888888;
+  width: 80%;
+}
+
+button,
+.btn,
+.bet-button {
+  background-color: var(--primary-color);
+  color: var(--button-text-color);
+  padding: var(--button-padding);
+  border: none;
+  border-radius: var(--button-border-radius);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover,
+.btn:hover,
+.bet-button:hover {
+  background-color: #c7c7c7;
+}
+
+/* Form Styling */
+form {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background: var(--secondary-background-color);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+select,
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
+}
+
+input[type="submit"] {
+  background-color: var(--highlight-color);
+  color: white;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: darken(var(--highlight-color), 10%);
+}
+
+body.dark-mode footer {
+  color: black;
+}
+
+body.dark-mode .modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--modal-background-color);
+}
+
+body.dark-mode .modal-content {
+  background-color: #333333;
+  color: var(--modal-text-color);
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888888;
+  width: 80%;
+}
+
+body.dark-mode {
+  --primary-color: #275d3b;
+  background-color: #1e1e1e;
+  color: #c7c7c7;
+}
+
+/* Navbar and tabs */
+body.dark-mode .navbar,
+body.dark-mode .tab {
+  background-color: #2c2c2c;
+  color: #ffffff;
+}
+
+body.dark-mode .navbar .active,
+body.dark-mode .tab.active {
+  background-color: #444444;
+  color: #ffffff;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode .heading {
+  color: #ffffff;
+}
+
+body.dark-mode .card,
+body.dark-mode .widget {
+  background-color: #2a2a2a;
+  color: #ffffff;
+  border: 1px solid #383838;
+}
+
+body.dark-mode .table,
+body.dark-mode th,
+body.dark-mode td {
+  background-color: #262626;
+  color: #e0e0e0;
+  border: 1px solid #383838;
+}
+
+body.dark-mode .form-control,
+body.dark-mode .select {
+  background-color: #333333;
+  color: #dddddd;
+  border: 1px solid #444444;
+}
+
+body.dark-mode .button,
+body.dark-mode .btn {
+  background-color: #4a4a4a;
+  color: #ffffff;
+  border: 1px solid #5c5c5c;
+}
+
+body.dark-mode .button:hover,
+body.dark-mode .btn:hover {
+  background-color: #5c5c5c;
+}
+
+body.dark-mode .budget-indicator,
+body.dark-mode .bet-bucks-indicator {
+  background-color: #333333;
+  color: #39d839;
+}
+
+body.dark-mode .sports-section {
+  background-color: #242424;
+  border: 1px solid #3a3a3a;
+}
+
+body.dark-mode .sports-section .section-title {
+  color: #39d839;
+}
+
+body.dark-mode .footer {
+  background-color: #2c2c2c;
+  color: #ffffff;
+}
+
+body.dark-mode .bet-amount,
+body.dark-mode .bet-selection-0,
+body.dark-mode .budget-bar {
+  background-color: var(--widget-bg-color);
+  color: var(--widget-text-color);
+  border: 1px solid var(--widget-border-color);
+}
+
+@media screen and (max-width: 768px) {
+  .dashboard-grid {
+    display: block;
+  }
+  .widget {
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 768px) {
+  form,
+  button,
+  .btn,
+  input[type="submit"] {
+    padding: 6px 8px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,71 @@
+:root {
+  --border-radius: 8px;
+  --standard-padding: 20px;
+  --standard-margin: 20px;
+  --primary-color: #86dcac;
+  --background-color: darkslategrey;
+  --text-color: #2c3e50;
+  --button-text-color: white;
+  --dark-primary-color: #355a3a;
+  --dark-background-color: #17202a;
+  --dark-text-color: #bdc3c7;
+  --dark-header-footer-bg: #273c75;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: var(--primary-color);
+    color: var(--button-text-color);
+    padding: 10px 20px;
+    text-align: center;
+}
+
+main {
+    padding: var(--standard-padding);
+    max-width: 800px;
+    margin: auto;
+}
+
+#betting-habits h2 {
+    color: white;
+}
+
+#habit-stats p {
+    background-color: white;
+    padding: 10px;
+    border-radius: var(--border-radius);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+}
+
+body.dark-mode {
+    background-color: var(--dark-background-color);
+    color: var(--dark-text-color);
+}
+
+body.dark-mode header, body.dark-mode footer {
+    background-color: var(--dark-primary-color);
+}
+
+
+body.dark-mode #betting-habits h2 {
+    color: #bdc3c7;
+}
+
+body.dark-mode #habit-stats p {
+    background-color: darkslategrey;
+    color: #bdc3c7;
+}
+
+@media (max-width: 600px) {
+    body, main {
+        padding: 5px;
+    }
+}

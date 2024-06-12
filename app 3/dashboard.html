@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard - Sports Betting App</title>
+    <link rel="stylesheet" href="dashboard.css" />
+
+  </head>
+  <body>
+    <main>
+      <section id="budget-section">
+        <h2>
+          Daily Budget: <span id="daily-budget-used">110</span> /
+          <span id="daily-budget-total">250</span>
+        </h2>
+        <div class="budget-bar">
+          <div class="budget-used" style="width: 0%">
+          </div>
+        </div>
+      </section>
+
+      <section id="baseball-bets">
+        <h2>Baseball</h2>
+        <div id="baseball-table-container"></div>
+      </section>
+
+      <section id="basketball-bets">
+        <h2>Basketball</h2>
+        <div id="basketball-table-container"></div>
+      </section>
+
+      <section id="football-bets">
+        <h2>Football</h2>
+        <div id="football-table-container"></div>
+      </section>
+      <section id="soccer-bets">
+        <h2>Soccer</h2>
+        <div id="soccer-table-container"></div>
+      </section>
+      <section id="hockey-bets">
+        <h2>Hockey</h2>
+        <div id="hockey-table-container"></div>
+      </section>
+
+      <section id="tennis-bets">
+        <h2>Tennis</h2>
+        <div id="tennis-table-container"></div>
+      </section>
+
+      <nav class="dashboard-nav">
+        <ul>
+          <li><a href="glossary.html">Glossary</a></li>
+          <li><a href="goals.html">Goals</a></li>
+          <li><a href="habits.html">Habits</a></li>
+          <li><a href="timeout.html">Time-Out</a></li>
+        </ul>
+      </nav>
+
+      <div id="timeoutModal" class="modal">
+        <div class="modal-content">
+          <h2>Time-Out</h2>
+          <p>You are in a time-out. Please wait...</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Sports Betting App</p>
+    </footer>
+
+    <script src="dashboard.js" type="module"></script>
+  </body>
+</html>

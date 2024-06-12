@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - Sports Betting App</title>
+    <link rel="stylesheet" href="settings.css">
+</head>
+<body>
+
+    <main>
+        <h1>Settings</h1>
+        <form id="betting-settings">
+            <div class="form-group">
+                <label for="user-name">User Name:</label>
+                <input type="text" id="user-name" name="user-name" placeholder="Enter your name" required>
+                <label for="daily-limit" style="color: #333;">Daily Betting Limit:</label>
+                <input type="number" id="daily-limit" name="daily-limit" placeholder="Enter daily limit in $" min="0">
+                <label for="duration" style="color: #333;">Duration of Time-Outs:</label>
+                <input type="number" id="duration" name="duration" placeholder="Enter the amount of minutes your time outs will be" min="0">
+            </div>
+            <div class="form-group">
+                <label for="dark-mode" style="color: #333;">Dark Mode:</label>
+                <input type="checkbox" id="dark-mode" name="dark-mode">
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn">Save Settings</button>
+                <button type="button" id="reset-settings" class="btn">Reset Settings</button>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sports Betting App</p>
+    </footer>
+
+    <script src="settings.js" type="module"></script>
+
+</body>
+</html>

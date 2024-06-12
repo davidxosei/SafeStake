@@ -1,0 +1,448 @@
+{
+  "Tutorial": [
+    {
+      "title": "Welcome to the Sports Betting App",
+      "description": "This tutorial will guide you through the basics of using our app to bet on sports responsibly."
+    },
+    {
+      "title": "Dashboard",
+      "description": "Here, you can view odds, place bets, and each bet selection prompts a quiz or tip to enhance your betting strategy."
+    },
+    {
+      "title": "Quiz",
+      "description": "Answer quiz questions correctly to proceed and earn bet bucks. This interactive feature helps you learn as you play."
+    },
+    {
+      "title": "Bet-ed",
+      "description": "Instead of a quiz, receive helpful tips about the bets you are about to place to make informed decisions."
+    },
+    {
+      "title": "Impulse Control",
+      "description": "Receive a warning when making high-risk bets to reconsider your options and bet responsibly."
+    },
+    {
+      "title": "Glossary",
+      "description": "Refresh your understanding of betting terms anytime from your dashboard."
+    },
+    {
+      "title": "Goals",
+      "description": "Set and track your betting goals through your dashboard to stay focused and motivated."
+    },
+    {
+      "title": "Habits",
+      "description": "Review your recent betting habits to understand your betting patterns and adjust strategies accordingly."
+    },
+    {
+      "title": "Time Out",
+      "description": "Use this feature to take breaks from betting when you feel it's necessary to maintain control."
+    },
+    {
+      "title": "Settings",
+      "description": "Adjust your daily betting limits and timeout durations to customize your betting experience."
+    },
+    {
+      "title": "Conclusion",
+      "description": "Remember to have fun and gamble responsibly. Enjoy your betting experience within your limits."
+    }
+  ],
+  "General": [
+    {
+      "term": "Odds",
+      "definition": "A measure of the likelihood of a particular outcome in a sporting event."
+    },
+    {
+      "term": "Spread",
+      "definition": "A bet on the margin of victory in a game."
+    },
+    {
+      "term": "Moneyline",
+      "definition": "A bet on a team or player to win a game or event outright, without a point spread."
+    },
+    {
+      "term": "Over/Under (Total)",
+      "definition": "A bet on whether the total points scored by both teams will exceed (over) or be less than (under) a specified number set by the bookmaker."
+    },
+    {
+      "term": "Parlay",
+      "definition": "A combination of two or more bets in which all must win for the bettor to be victorious, resulting in a higher payout."
+    },
+    {
+      "term": "Futures",
+      "definition": "Bets on the outcome of a future event, such as a championship or season, typically placed before the event starts."
+    },
+    {
+      "term": "Prop Bet (Proposition Bet)",
+      "definition": "A wager on specific occurrences or non-occurrences within a game, often unrelated to the final score."
+    }
+  ],
+  "Baseball": [
+    {
+      "term": "Run Line",
+      "definition": "A point spread used in baseball games, reflecting the number of runs by which a team is favored over the opponent."
+    },
+    {
+      "term": "Grand Salami",
+      "definition": "A bet on the total number of runs scored in all baseball games on a particular day."
+    },
+    {
+      "term": "No Action",
+      "definition": "A declared void bet due to various reasons such as postponement, resulting in the return of all wagers."
+    },
+    {
+      "term": "Total Bases",
+      "definition": "A bet on how many total bases a player will earn in a game, with each hit contributing a certain number of bases."
+    }
+  ],
+  "Basketball": [
+    {
+      "term": "Total Rebounds",
+      "definition": "A proposition bet on how many rebounds a particular player will accumulate in a game."
+    },
+    {
+      "term": "Quarter Line",
+      "definition": "Betting on the outcome or total score of a specific quarter in a basketball game."
+    },
+    {
+      "term": "Pick 'em (PK)",
+      "definition": "A game where the teams are so closely matched that there is no favorite or underdog; you simply pick the winner."
+    }
+  ],
+  "Football": [
+    {
+      "term": "Against the Spread (ATS)",
+      "definition": "Refers to the record of a team in relation to the point spread as opposed to the straight-up outcome of games."
+    },
+    {
+      "term": "Cover",
+      "definition": "When a team exceeds the point spread set by the sportsbook."
+    },
+    {
+      "term": "Teaser",
+      "definition": "A type of bet that allows the bettor to combine bets on two different games and adjust the spreads for both games."
+    }
+  ],
+  "Tennis": [
+    {
+      "term": "Set Betting",
+      "definition": "A type of bet where the bettor predicts the exact score by which a player will win a set."
+    },
+    {
+      "term": "Match Winner",
+      "definition": "A type of bet where the bettor predicts which player will win the entire tennis match."
+    },
+    {
+      "term": "Over/Under Total Games",
+      "definition": "A type of bet where the bettor predicts whether the total number of games played in a match will be over or under a specified number set by the sportsbook."
+    },
+    {
+      "term": "Tiebreak",
+      "definition": "A situation where the score is tied at 6 games all in a set, and a tiebreaker game is played to determine the winner of the set."
+    }
+  ],
+  "Hockey": [
+    {
+      "term": "Puck Line",
+      "definition": "A point spread used in hockey games, reflecting the number of goals by which a team is favored over the opponent."
+    },
+
+    {
+      "term": "First Period Betting",
+      "definition": "A type of bet where the bettor predicts the outcome or total score of the first period of a hockey game."
+    },
+    {
+      "term": "Stanley Cup Futures",
+      "definition": "A type of bet where the bettor predicts which team will win the Stanley Cup at the end of the NHL season."
+    }
+  ],
+  "Soccer": [
+    {
+      "term": "Draw No Bet",
+      "definition": "A type of bet where the stake is refunded if the match ends in a draw, but the bettor wins if their selected team wins."
+    },
+    {
+      "term": "First Goal Scorer",
+      "definition": "A type of bet where the bettor predicts which player will score the first goal in the match."
+    },
+    {
+      "term": "Asian Handicap",
+      "definition": "A type of bet where the weaker team is given a handicap to level the playing field, often in increments of 0.25 goals to eliminate the possibility of a draw."
+    },
+    {
+      "term": "Correct Score",
+      "definition": "A type of bet where the bettor predicts the exact final score of the match."
+    }
+  ],
+
+  "betTypeDescriptions": {
+    "Money Line": "Bet on who will win the game. Negative odds indicate favorites, positive odds indicate underdogs.",
+    "Spread": "Bet on the point spread between two teams. The favorite must overcome the spread to win.",
+    "Total Points": "Bet on the total points scored in the game, either over or under a specified number.",
+    "Run Line": "Specific to baseball, similar to a point spread but always at -1.5 or +1.5 for the favorite or underdog.",
+    "Total Runs": "Bet on the total runs scored in a baseball game, either over or under a specified number.",
+    "Match Winner": "Bet on which player will win the match. Negative odds indicate favorites, positive odds indicate underdogs.",
+    "Set Betting": "Predict the outcome of the match in terms of sets won by each player.",
+    "Total Games": "Bet on the total number of games played in the match, either over or under a specified number.",
+    "Puck Line": "Similar to a point spread but always at -1.5 or +1.5 for the favorite or underdog in hockey.",
+    "Total Goals": "Bet on the total number of goals scored in the hockey game, either over or under a specified number.",
+    "Asian Handicap": "A form of betting that levels the playing field by giving one team a virtual advantage or disadvantage, usually in terms of goals or points."
+  },
+  "quizQuestions": {
+    "Baseball": {
+      "Money Line": [
+        {
+          "question": "What does a negative money line indicate? Favorite or underdog?",
+          "answer": "favorite"
+        },
+        {
+          "question": "What does a positive money line indicate? Favorite or underdog?",
+          "answer": "underdog"
+        }
+      ],
+      "Run Line": [
+        {
+          "question": "What does a run line of -1.5 indicate? A.) favorite must win by 2 or B.) underdog must not lose by 2",
+          "answer": "a"
+        },
+        {
+          "question": "What does a run line of +1.5 indicate? A.) favorite must win by 2 or B.) underdog must not lose by 2",
+          "answer": "b"
+        }
+      ],
+      "Total Runs": [
+        {
+          "question": "If you bet 'over 7.5 runs' in a baseball game, how many runs are needed to win the bet?",
+          "answer": "8"
+        },
+        {
+          "question": "In a bet for 'under 7.5 runs', what is the maximum number of runs for you to win?",
+          "answer": "7"
+        }
+      ]
+    },
+    "Basketball": {
+      "Money Line": [
+        {
+          "question": "In basketball, if you bet on a team with a money line of +130, what does it mean? Favorite or underdog?",
+          "answer": "underdog"
+        },
+        {
+          "question": "What does a negative money line signify in a basketball bet? Favorite or underdog?",
+          "answer": "favorite"
+        }
+      ],
+      "Spread": [
+        {
+          "question": "What does a spread of -5.5 indicate for the favorite? A.) must win by 6 B.) must not lose by 6",
+          "answer": "a"
+        },
+        {
+          "question": "What does a spread of +5.5 indicate for the underdog? A.) must win by 6 B.) must not lose by 6",
+          "answer": "b"
+        }
+      ],
+      "Total Points": [
+        {
+          "question": "What is the minimum number of points between both teams to win a 'over 215.5 points' bet?",
+          "answer": "216"
+        },
+        {
+          "question": "What is the maximum number of points between both teams to win a 'under 215.5 points' bet?",
+          "answer": "215"
+        }
+      ]
+    },
+    "Football": {
+      "Money Line": [
+        {
+          "question": "What is indicated by a negative money line for a football team? Favorite or underdog?",
+          "answer": "favorite"
+        },
+        {
+          "question": "What is indicated by a positive money line for a football team? Favorite or underdog?",
+          "answer": "underdog"
+        }
+      ],
+      "Spread": [
+        {
+          "question": "If the spread is Patriots -3.5 against Giants, what is required for Patriots to cover the spread? A.) win by 4 or more B.) lose by 3 or less or win",
+          "answer": "a"
+        },
+        {
+          "question": "In football, if you bet on a team with a spread of +3.5, what are the winning conditions? A.) win by 4 or more B.) lose by 3 or less or win",
+          "answer": "b"
+        }
+      ],
+      "Total Points": [
+        {
+          "question": "What is the minimum number of points between both teams to win a 'over 47.5 points' bet?",
+          "answer": "48"
+        },
+        {
+          "question": "What is the maximum number of points between both teams to win a 'under 47.5 points' bet?",
+          "answer": "47"
+        }
+      ]
+    },
+    "Soccer": {
+      "Money Line": [
+        {
+          "question": "What does a positive money line indicate in soccer? Favorite or underdog?",
+          "answer": "underdog"
+        },
+        {
+          "question": "What does a negative money line signify in soccer? Favorite or underdog?",
+          "answer": "favorite"
+        }
+      ],
+      "Total Goals": [
+        {
+          "question": "In soccer, if you bet on the total goals being over 2.5, how many goals are needed to win the bet?",
+          "answer": "3"
+        },
+        {
+          "question": "In a bet for 'under 2.5 goals' in soccer, what is the maximum number of goals for you to win?",
+          "answer": "2"
+        }
+      ],
+      "Asian Handicap": [
+        {
+          "question": "What does a positive Asian Handicap indicate in soccer? Advantage or disadvantage?",
+          "answer": "advantage"
+        },
+        {
+          "question": "In soccer, if you bet on a team with a handicap of -1.5, what must they do to win the bet? A.) Win by 2 or B.) Not lose by 2",
+          "answer": "a"
+        }
+      ]
+    },
+    "Hockey": {
+      "Money Line": [
+        {
+          "question": "In hockey, what does a negative money line indicate? Favorite or underdog?",
+          "answer": "favorite"
+        },
+        {
+          "question": "What does a positive money line indicate in hockey? Favorite or underdog?",
+          "answer": "underdog"
+        }
+      ],
+      "Puck Line": [
+        {
+          "question": "What does a puck line of -1.5 indicate in hockey? A.) favorite must win by 2 or B.) underdog must not lose by 2",
+          "answer": "a"
+        },
+        {
+          "question": "What does a puck line of +1.5 indicate in hockey? A.) favorite must win by 2 or B.) underdog must not lose by 2",
+          "answer": "b"
+        }
+      ],
+      "Total Goals": [
+        {
+          "question": "If you bet 'over 5.5 goals' in a hockey game, how many goals are needed to win the bet?",
+          "answer": "6"
+        },
+        {
+          "question": "In a bet for 'under 5.5 goals' in hockey, what is the maximum number of goals for you to win?",
+          "answer": "5"
+        }
+      ]
+    },
+
+    "Tennis": {
+      "Match Winner": [
+        {
+          "question": "In tennis, if you bet on a player with a money line of -200, what does it mean? Favorite or underdog?",
+          "answer": "favorite"
+        },
+        {
+          "question": "What does a positive money line signify in tennis betting? Favorite or underdog?",
+          "answer": "underdog"
+        }
+      ],
+      "Set Betting": [
+        {
+          "question": "What does a set betting of 2-0 indicate in tennis? A.) Player wins in 2 sets or B.) Player wins in 3 sets",
+          "answer": "a"
+        },
+        {
+          "question": "What does a set betting of 2-1 indicate in tennis? A.) Player wins in 2 sets or B.) Player wins in 3 sets",
+          "answer": "b"
+        }
+      ],
+      "Total Games": [
+        {
+          "question": "If you bet 'over 20.5 games' in a tennis match, how many games are needed to win the bet?",
+          "answer": "21"
+        },
+        {
+          "question": "In a bet for 'under 20.5 games' in tennis, what is the maximum number of games for you to win?",
+          "answer": "20"
+        }
+      ]
+    }
+  },
+
+  "Dashboard": {
+    "Baseball": [
+      {
+        "teams": "Mets vs Cubs",
+        "bets": {
+          "Money Line": "Mets (-150) | Cubs (+130)",
+          "Run Line": "Mets -1.5 (+160) | Cubs +1.5 (-197)",
+          "Total Runs": "U 7.5 (-105) | O 7.5 (-115)"
+        }
+      }
+    ],
+    "Basketball": [
+      {
+        "teams": "Lakers vs Celtics",
+        "bets": {
+          "Money Line": "Lakers (-130) | Celtics (+110)",
+          "Spread": "Lakers -5.5 (-110) | Celtics +5.5 (-110)",
+          "Total Points": "U 215.5 (-105) | O 215.5 (-115)"
+        }
+      }
+    ],
+    "Football": [
+      {
+        "teams": "Patriots vs Giants",
+        "bets": {
+          "Money Line": "Patriots (-160) | Giants (+140)",
+          "Spread": "Patriots -3.5 (-110) | Giants +3.5 (-110)",
+          "Total Points": "U 47.5 (-105) | O 47.5 (-115)"
+        }
+      }
+    ],
+    "Soccer": [
+      {
+        "teams": "Manchester United vs Liverpool",
+        "bets": {
+          "Money Line": "Manchester United (-120) | Liverpool (+100)",
+          "Total Goals": "U 2.5 (-125) | O 2.5 (+105)",
+          "Asian Handicap": "Manchester United -1.5 (+180) | Liverpool +1.5 (-200)"
+        }
+      }
+    ],
+    "Hockey": [
+      {
+        "teams": "Chicago Blackhawks vs Boston Bruins",
+        "bets": {
+          "Money Line": "Chicago Blackhawks (-110) | Boston Bruins (-110)",
+          "Puck Line": "Chicago Blackhawks -1.5 (+150) | Boston Bruins +1.5 (-170)",
+          "Total Goals": "U 5.5 (-105) | O 5.5 (-115)"
+        }
+      }
+    ],
+
+    "Tennis": [
+      {
+        "teams": "Roger Federer vs Rafael Nadal",
+        "bets": {
+          "Match Winner": "Roger Federer (-200) | Rafael Nadal (+180)",
+          "Set Betting": "Roger Federer 2-0 (+120) | Rafael Nadal 2-1 (+150)",
+          "Total Games": "U 20.5 (-110) | O 20.5 (-110)"
+        }
+      }
+    ]
+  }
+}

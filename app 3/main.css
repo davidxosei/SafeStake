@@ -1,0 +1,142 @@
+:root {
+  --border-radius: 8px;
+  --standard-padding: 20px;
+  --standard-margin: 20px;
+  --primary-color: #86dcac;
+  --accent-color: seagreen;
+  --secondary-background-color: #f7f7f7;
+  --primary-background-color: darkslategrey;
+  --primary-text-color: white;
+  --secondary-text-color: black;
+  --highlight-color: #ff4500;
+  --border-color: #dddddd;
+  --disabled-color: #9e9e9e;
+  --font-family: "Arial", sans-serif;
+  --button-background-color: var(--accent-color);
+  --button-hover-background-color: #3e8c41;
+  --button-padding: 10px 20px;
+  --button-border-radius: 4px;
+  --button-text-color: var(--secondary-text-color);
+  --font-size-p: 26px;
+  --font-size-li: 26px;
+  --box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  --dark-primary-color: #355a3a;
+  --dark-accent-color: #2b8c6a;
+  --dark-background-color: #1e1e1e;
+  --dark-secondary-background-color: #2c2c2c;
+  --dark-text-color: #c7c7c7;
+  --dark-border-color: #333333;
+  --dark-button-background-color: #4a4a4a;
+  --dark-button-hover-background-color: #5c5c5c;
+  --dark-highlight-color: #ff6347;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+  line-height: 1.6;
+}
+
+p {
+  font-size: var(--font-size-p);
+}
+
+li {
+  font-size: var(--font-size-li);
+}
+
+main {
+  padding: var(--standard-padding);
+}
+
+button {
+  background-color: var(--button-background-color);
+  color: var(--button-text-color);
+  padding: var(--button-padding);
+  border-radius: var(--button-border-radius);
+  box-shadow: var(--box-shadow);
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--button-hover-background-color);
+}
+
+.feature, .learning-tools, .interactive-elements {
+  background-color: var(--secondary-background-color);
+  padding: var(--standard-padding);
+  margin-top: var(--standard-margin);
+  border-radius: var(--border-radius);
+  color: black;
+}
+
+.feature img, .learning-tools img, .interactive-elements img {
+  width: 40%;
+  height: auto;
+  border-radius: var(--border-radius);
+}
+
+
+section h2 {
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  body, main, form, .feature, .learning-tools, .interactive-elements {
+    padding: 5px;
+    font-size: 14px;
+  }
+}
+
+body.dark-mode {
+  background-color: var(--dark-background-color);
+  color: var(--dark-text-color);
+}
+
+body.dark-mode .hero {
+  color: var(--dark-text-color);
+}
+
+body.dark-mode button {
+  background-color: var(--dark-button-background-color);
+}
+
+body.dark-mode button:hover {
+  background-color: var(--dark-button-hover-background-color);
+}
+
+body.dark-mode .feature, body.dark-mode .learning-tools, body.dark-mode .interactive-elements {
+  background-color: var(--dark-secondary-background-color);
+  color: var(--dark-text-color);
+}
+
+body.dark-mode section h2, body.dark-mode label {
+  color: var(--dark-text-color);
+}
+
+body.dark-mode .feature img, body.dark-mode .learning-tools img, body.dark-mode .interactive-elements img {
+  border-radius: var(--border-radius);
+}
+
+@media (max-width: 768px) {
+  .feature, .learning-tools, .interactive-elements {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .feature img, .learning-tools img, .interactive-elements img {
+    width: 35%;
+    height: auto;
+    margin: 5px;
+    border-radius: var(--border-radius);
+  }
+}
+
+@media (max-width: 425px) {
+  img[alt="Basketball"], img[alt="Baseball"] {
+    margin-left: 5px !important;
+  }
+}

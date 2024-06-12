@@ -1,0 +1,104 @@
+:root {
+    --primary-color: #86dcac;
+    --background-color: darkslategrey;
+    --text-color: #333333;
+    --header-footer-bg: #004085;
+    --header-footer-text: #FFFFFF;
+    --heading-color: #004085;
+    --form-bg: #F8F9FA;
+    --button-bg: #007BFF;
+    --button-text: #FFFFFF;
+    --button-hover-bg: #0056B3;
+    --dark-mode-bg: #343A40;
+    --dark-mode-text: #F8F9FA;
+    --dark-mode-header-footer-bg: #23272B;
+    --dark-mode-content-bg: #495057;
+
+    --border-radius: 8px;
+    --standard-padding: 20px;
+    --standard-margin: 20px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: var(--primary-color);
+    color: var(--button-text-color);
+    padding: 10px 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    margin: auto;
+    max-width: 960px;
+}
+
+h1 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+#tutorial-container {
+    background-color: var(--form-bg);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tutorial-step h2 {
+    color: var(--background-color);
+    margin-bottom: 10px;
+}
+
+.tutorial-step p {
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.btn:hover {
+    background-color: var(--button-hover-bg);
+}
+
+body.dark-mode {
+    background-color: var(--dark-mode-bg);
+    color: var(--dark-mode-text);
+}
+
+body.dark-mode header, body.dark-mode footer {
+    background-color: var(--dark-mode-header-footer-bg);
+}
+
+body.dark-mode #tutorial-container {
+    background-color: var(--dark-mode-content-bg);
+}
+
+body.dark-mode #tutorial-step h2, body.dark-mode #tutorial-step p {
+    color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 5px;
+    }
+
+    main {
+        padding: 10px;
+    }
+}

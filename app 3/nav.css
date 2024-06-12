@@ -1,0 +1,166 @@
+:root {
+  --dark-primary-color: #355a3a;
+  --dark-secondary-text-color: #c7c7c7;
+  --dark-highlight-color: #c7c7c7;
+  --dark-background-color: #121212;
+  --dark-element-bg: #333333;
+  --dark-bet-bucks-bg: #424242;
+}
+
+header,
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--primary-color);
+  color: var(--secondary-text-color);
+  padding: var(--standard-padding);
+}
+
+header img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  max-height: 100px;
+}
+
+.user-info,
+.bet-bucks {
+  margin-right: 25px;
+  background-color: green;
+  padding: var(--text-padding);
+  border-radius: var(--radius-standard);
+}
+
+.nav-links,
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  margin-right: 50px;
+}
+
+.nav-links li {
+  padding: 0 var(--standard-margin);
+  font-size: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  font-size: 1.5em;
+  z-index: 1000;
+}
+
+@media (max-width: 1000px) {
+  header,
+  .navbar {
+    padding: 10px;
+    position: relative;
+  }
+
+  header img {
+    max-width: 40%;
+    max-height: 40px;
+  }
+
+  .nav-links {
+    position: absolute;
+    background-color: var(--primary-color);
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    top: 100%;
+    left: 0;
+    right: 0;
+  }
+
+  .nav-active .nav-links,
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links li a {
+    font-size: 4vw;
+    padding: 10px 20px;
+    display: block;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+body.dark-mode .navbar,
+body.dark-mode header {
+  background-color: var(--dark-primary-color);
+  color: var(--dark-secondary-text-color);
+}
+
+body.dark-mode .user-info .bet-bucks {
+  background-color: var(--dark-bet-bucks-bg);
+  color: var(--dark-highlight-color);
+}
+
+body.dark-mode nav ul li a {
+  color: var(--dark-highlight-color);
+}
+
+.logo-container img {
+  height: 100px;
+  width: auto; 
+  background-image: url('https://cdn.glitch.global/9e81ac6d-2612-43d2-bc28-604c5d77f3b9/Screenshot%202024-04-17%20142321.png?v=1713378338128'); 
+}
+
+.light-logo {
+  display: block;
+}
+
+.dark-logo {
+  display: none;
+}
+
+body.dark-mode .light-logo {
+  display: none;
+}
+
+body.dark-mode .dark-logo {
+  display: block;
+}
+
+@media (max-width: 425px) {
+  header,
+  .navbar {
+    padding: 5px;
+  }
+
+  .logo-container img {
+    height: 50px;
+    width: auto;
+  }
+
+  .hamburger {
+    font-size: 1.2em;
+    padding: 5px;
+  }
+
+  .nav-links li a {
+    font-size: 3.5vw;
+  }
+
+  .user-info,
+  .bet-bucks {
+    display: none;
+  }
+}
