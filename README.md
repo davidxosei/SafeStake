@@ -1,5 +1,13 @@
 # SafeStake
 
+## Website Link
+
+https://safestake.glitch.me/
+
+## Walkthrough
+
+https://www.youtube.com/watch?v=dMdlOa2CSic
+
 ## Project Overview
 
 SafeStake is a web application designed to promote responsible sports betting. It aims to address the issue of uninformed and impulsive betting behavior, particularly among college students, by providing educational resources, risk management tools, and features that encourage mindful decision-making.
